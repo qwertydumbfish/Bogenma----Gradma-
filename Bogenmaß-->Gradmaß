@@ -1,7 +1,7 @@
 #Bogenmaß --> Gradmaß
 
-x = float(input("Wie groß ist ihr Bogenmaß?"))
-from math import pi
-y = ((2*pi)/ 360 * x )
+x = float(input("Wie groß ist ihr Bogenmaß?")) #Input des Bogenmaß. Float ist das type für dezimalen Nummern.
+from math import pi                            #Pi aus der Mathematikbibliothek importieren so können wir mit 3.14... beseitigen
+y = ((2*pi)/ 360 * x )                         #Die Formel zur Umrechnung von Bogenmaß in Grad
 
-print(y)
+print(y)                                       #Die Output des Ergebnisses
