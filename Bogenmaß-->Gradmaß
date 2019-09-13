@@ -1,0 +1,7 @@
+#Bogenmaß --> Gradmaß
+
+x = float(input("Wie groß ist ihr Bogenmaß?"))
+from math import pi
+y = ((2*pi)/ 360 * x )
+
+print(y)
